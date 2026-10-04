@@ -204,3 +204,13 @@ details p { font-family: var(--serif); font-size: 19px; line-height: 1.6; color:
   .hero-inner, .scroll-cue span { animation: none; }
   .pillar-art img, .trio img, .grid img { transition: none; }
 }
+
+/* maker's arms */
+.maker { padding-block: 90px 70px; text-align: center; background: radial-gradient(ellipse at 50% 30%, #2a321f66, transparent 62%); border-top: 1px solid var(--line); }
+.maker-arms { display: block; width: min(300px, 64%); margin: 0 auto 26px; border-radius: 50%; transition: transform .5s ease, filter .5s ease; }
+.maker-arms img { width: 100%; height: auto; border-radius: 50%; -webkit-mask-image: radial-gradient(circle closest-side, #000 82%, transparent 100%); mask-image: radial-gradient(circle closest-side, #000 82%, transparent 100%); filter: drop-shadow(0 20px 40px #000a); }
+.maker-arms:hover { transform: rotate(-2deg) scale(1.03); filter: brightness(1.06); }
+.maker h2 { font-family: var(--display); font-size: clamp(24px, 3.4vw, 36px); letter-spacing: .04em; margin-top: 14px; }
+.maker-motto { font-family: var(--serif); font-style: italic; font-size: 22px; color: var(--gold-2); margin-top: 12px; }
+.maker-note { font-family: var(--serif); font-size: 18px; line-height: 1.6; color: var(--muted); margin-top: 16px; }
+@media (prefers-reduced-motion: reduce) { .maker-arms { transition: none; } }
