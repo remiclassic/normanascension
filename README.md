@@ -1,6 +1,6 @@
 # Norman Ascension — website
 
-The public site for Norman Ascension, an online multiplayer medieval life and dynasty RPG set in Normandy, 1066. Published with GitHub Pages at https://remiclassic.github.io/normanascension/.
+The public site for Norman Ascension, an online multiplayer medieval life and dynasty RPG set in Normandy, 1066. Published with GitHub Pages at https://normanascension.com/.
 
 Plain HTML, CSS and JavaScript; no build step.
 
