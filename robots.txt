@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://normanascension.com/sitemap.xml
